@@ -256,7 +256,8 @@
     text-align: center;
 }
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width:900px){
     
     #people .body_card {
         display: flex;
@@ -264,7 +265,8 @@
         margin-top: 50px;
         overflow-x: scroll;
         background-color: #380606;
-        width: 390px;
+        width: 670px;
+        margin: auto;
     }
     .part2 .container h1 {
         color: beige;
@@ -278,7 +280,7 @@
         margin-bottom: 50px;
     }
 }
-@media screen and (max-width:900px){
+@media screen and (max-width: 500px){
     
     #people .body_card {
         display: flex;
@@ -286,7 +288,7 @@
         margin-top: 50px;
         overflow-x: scroll;
         background-color: #380606;
-        width: 670px;
+        width: 330px;
         margin: auto;
     }
     .part2 .container h1 {
