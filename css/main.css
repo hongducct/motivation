@@ -121,6 +121,7 @@
     margin-bottom: 15px;
     margin:15px
 }
+
 /* #people .card:last-child{
     margin-right: 0;
 } */
@@ -245,8 +246,35 @@
 	background-color: #555;
 }
 
-.people img {
+.part3 .people img {
     width: 80%;
     padding: 20px;
     margin: 0 auto;
+}
+.part3 .imgPeople {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 390px){
+    
+    #people .body_card {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+        overflow-x: scroll;
+        background-color: #380606;
+        width: 390px;
+    }
+    .part2 .container h1 {
+        color: beige;
+        font-weight: 900;
+        /* font-size: 45px; */
+        margin-bottom: 50px;
+    }
+    .part2 h2 {
+        color: #f2726a;
+        /* font-size: 30px; */
+        margin-bottom: 50px;
+    }
 }
